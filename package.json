@@ -1,0 +1,28 @@
+{
+  "name": "vue3-plugin-toast",
+  "version": "0.0.5",
+  "author": "nerrevar",
+  "description": "Vue3 plugin for showing toast (usually for request results)",
+  "keywords": [
+    "vue3",
+    "plugins",
+    "toast"
+  ],
+  "homepage": "https://github.com/nerrevar/vue3-toast#readme",
+  "license": "GPL-2.0",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerrevar/vue3-toast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nerrevar/vue3-toast/issues"
+  },
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo No tests specified && exit 0"
+  }
+}
