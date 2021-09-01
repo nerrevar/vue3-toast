@@ -1,6 +1,10 @@
 {
   "name": "vue3-plugin-toast",
-  "version": "0.0.5",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo No tests specified && exit 0"
+  },
   "author": "nerrevar",
   "description": "Vue3 plugin for showing toast (usually for request results)",
   "keywords": [
@@ -21,8 +25,7 @@
   "dependencies": {
     "vue": "^3.0.0"
   },
-  "scripts": {
-    "build": "tsc --build",
-    "test": "echo No tests specified && exit 0"
+  "devDependencies": {
+    "typescript": "^4.3.5"
   }
 }

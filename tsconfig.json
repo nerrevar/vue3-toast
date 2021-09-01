@@ -1,12 +1,19 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
-    "module": "CommonJS",
+    "target": "esnext",
+    "module": "esnext",
     "strict": true,
+    "declaration": true,
+    "jsx": "preserve",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": false,
-    "baseUrl": "./src"
+    "baseUrl": ".",
+    "outDir": "dist",
+    "rootDirs": [
+      "./src"
+    ]
   },
   "include": [
     "src/**/*.ts",
